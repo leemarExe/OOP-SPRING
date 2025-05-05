@@ -11,7 +11,6 @@ int main() {
         return 1;
     }
 
-    // Move to the start of the 3rd record (18 bytes in)
     in.seekg(18, ios::beg);
 
     string record;
